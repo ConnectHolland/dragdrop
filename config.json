@@ -1,0 +1,25 @@
+{
+    "default_tasks": [
+        "javascript"
+    ],
+    "install_tasks": [],
+    "production": true,
+    "javascript": {
+        "items": [
+            {
+                "src": [
+                    "src/effects.js",
+                    "src/dragdrop.js"
+                ],
+                "dest": ".",
+                "outputname": "index.js",
+                "watch": [
+                    "src/**/*.js"
+                ],
+                "options": {
+                    "mangle": false
+                }
+            }
+        ]
+    }
+}
